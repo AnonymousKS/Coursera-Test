@@ -1,3 +1,7 @@
+* {
+    box-sizing: border-box;
+}
+
 a:link, a:visited {
     background-color: red;
     width: 200px;
@@ -26,7 +30,7 @@ li {
 #section1 {
     color: darkgoldenrod;
     text-align: center;
-    background-color: green;
+    background-color:blanchedalmond;
     
 }
 #section2 {
