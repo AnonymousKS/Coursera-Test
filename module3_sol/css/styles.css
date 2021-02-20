@@ -1,4 +1,68 @@
 body {
     font-size: 16px;
     color:white;
+    background-color:orchid;
+    font-family: cursive;
+}
+
+#header-nav {
+    background-color:slateblue;
+    border-radius: 0;
+    border: 0;
+    color: white;
+}
+
+.navbar-brand h1 {
+    color:mintcream;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 0px;
+    margin-left: 15px;
+}
+
+.navbar-brand a:focus, .navbar-brand a:hover {
+    text-decoration: none;
+}
+
+#nav-list a {
+    color: white;
+    text-align: center;
+}
+
+#nav-list a:hover {
+    background-color:darkblue;
+}
+
+
+
+#header {
+    margin-bottom: 30px;
+    font-weight: bold;
+    font-style: italic;
+    color:lightcyan;
+}
+
+.row {
+
+    position: relative;
+    float: left;
+}
+
+.row > div > article{
+    background-color:mediumturquoise;
+    font-family:Arial, Helvetica, sans-serif;
+    text-align: justify;
+    margin-bottom: 20px;
+    padding: 12px;
+    color: black;
+}
+
+
+
+@media (max-width: 767px) {
+    .row > div > article {
+        width: 80%;
+        margin: 20px auto 0;
+    }
 }
