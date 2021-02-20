@@ -1,3 +1,7 @@
+body {
+    background-color: grey;
+}
+
 * {
     box-sizing: border-box;
 }
@@ -31,10 +35,13 @@ li {
     color: darkgoldenrod;
     text-align: center;
     background-color:blanchedalmond;
+    border: 2px solid black;
     
 }
 #section2 {
     color: indianred;
     text-align: center;
     background-color: khaki;
+    border: 2px solid black;
+    margin-top: 5px;
 }
